@@ -1,3 +1,16 @@
-body{
-  background-color: rgb(184, 184, 184);
+body {
+  background-color: rgb(184, 184, 184); /* Fundo da página cinza claro */
+}
+
+img {
+  float: none; /* Imagens não flutuam */
+}
+
+.borderbody {
+  background-color: white;     /* Fundo branco da caixa */
+  border: 3px solid black;     /* Borda preta de 3px */
+  border-radius: 10px;         /* Cantos arredondados */
+  margin: 25px auto 300px;     /* Centralizado com espaço acima e abaixo */
+  width: 500px;                /* Largura fixa da caixa */
+  padding: 20px;               /* Espaço interno */
 }

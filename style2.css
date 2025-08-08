@@ -1,25 +1,30 @@
-body{
-  background-color: rgb(184, 184, 184);
-  text-align: center;
-  border: 3px solid black;
-  border-radius: 10px;
-  margin-top: 25px;
-  margin-bottom: 300px;
-  margin-right: 500px;
-  margin-left: 500px;
-}
-table {
-  border: 1px solid;
-}
-input[type=text] {
-  border: none;
-  border-bottom: 2px solids;
-}
-select {
-  width: 15%;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
+body {
+  background-color: rgb(184, 184, 184); /* Fundo da página cinza claro */
 }
 
+table {
+  border: 1px solid; /* Borda simples nas tabelas */
+}
+
+input[type=text] {
+  border: none; /* Remove borda padrão */
+  border-bottom: 2px solid black; /* Adiciona apenas a borda inferior preta */
+}
+
+select {
+  width: 38%; /* Largura do menu suspenso */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove borda padrão */
+  border-radius: 4px; /* Cantos arredondados */
+  background-color: #f1f1f1; /* Fundo cinza claro */
+}
+
+.borderbody {
+  background-color: white;     /* Fundo branco da caixa */
+  border: 3px solid black;     /* Borda preta grossa */
+  border-radius: 10px;         /* Cantos arredondados */
+  margin: 25px auto 300px;     /* Centralizado, espaço acima e abaixo */
+  width: 500px;                /* Largura fixa da caixa */
+  padding: 20px;               /* Espaço interno */
+  text-align: center;          /* Centraliza o texto */
+}

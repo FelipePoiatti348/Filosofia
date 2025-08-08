@@ -7,63 +7,67 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <h1>Informaçoes Curriculares</h1>
+<div class="borderbody"> <!-- Início da caixa com estilo (borda, fundo branco etc.) -->
 
+  <h1>Informaçoes Curriculares</h1> <!-- Título principal da página -->
 
-<li><label>Qual o periodo de trabalho:</label></li>
- <input type="radio" id="radio" name="Qp">Matutino
- <input type="radio" id="radio" name="Qp">Vespertino
- <input type="radio" id="radio" name="Qp">Noturno
-  <br><br>
+  <h3><label>Qual o periodo de trabalho:</label></h3> <!-- Subtítulo e descrição da pergunta -->
+   <br> <!-- Quebra de linha -->
+   <input type="radio" id="radio" name="Qp">Matutino <!-- Opção de período: manhã -->
+   <input type="radio" id="radio" name="Qp">Vespertino <!-- Opção: tarde -->
+   <input type="radio" id="radio" name="Qp">Noturno <!-- Opção: noite -->
+   <br><br> <!-- Espaçamento -->
 
-  <li><label>Teto salarial</label></li>2000,00
-<input type="range" id="range" value="">10.000,00
-<br><br>
+  <h3><label>Teto salarial:</label></h3> <!-- Subtítulo da faixa salarial -->
+  <p>2000,00 <input type="range" id="range" value=""> 10.000,00</p> <!-- Controle deslizante para salário -->
+  <br><!-- Espaçamento -->
 
- <li><label>Dias para entrevistas:</label></li>
-  <input type="date" id="date" name="De">
-   <br><br>
+  <h3><label>Dias para entrevistas:</label></h3> <!-- Subtítulo da data -->
+  <br><!-- Quebra de linha -->
+  <input type="date" id="date" name="De"> <!-- Campo para escolher uma data -->
+  <br><br><!---- Espaçamento -->
 
+  <h3><label for="estado">Estados:</label></h3> <!-- Subtítulo do estado -->
+  <br><!-- Quebra de linha -->
+  <select id="estado" name="estado"> <!-- Menu suspenso para escolher estado -->
+    <option value="0">Selecione seu estado</option> <!-- Opção inicial -->
+    <option value="1">São Paulo</option>
+    <option value="2">Rio de Janeiro</option>
+    <option value="3">Minas Gerais</option>
+    <option value="4">Espirito Santo</option>
+    <option value="5">Distrito Federal</option>
+    <option value="6">Goiás</option>
+    <option value="7">Mato Grosso</option>
+    <option value="8">Mato Grosso do Sul</option>
+    <option value="9">Alagoas</option>
+    <option value="10">Bahia</option>
+    <option value="11">Ceará</option>
+    <option value="12">Maranhão</option>
+    <option value="13">Paraíba</option>
+    <option value="14">Pernambuco</option>
+    <option value="15">Piauí</option>
+    <option value="16">Rio Grande do Norte</option>
+    <option value="17">Sergipe</option>
+    <option value="18">Acre</option>
+    <option value="19">Amapá</option>
+    <option value="20">Amazonas</option>
+    <option value="21">Pará</option>
+    <option value="22">Rondônia</option>
+    <option value="23">Roraima</option>
+    <option value="24">Tocantis</option>
+  </select>
+  <br><br><!-- Espaçamento-->
 
+  <h3><label>Nome Da Universidade:</label></h3> <!-- Subtítulo do campo de universidade -->
+  <br><!-- Quebra de linha-->
+  <input type="text" id="text" name="Ndu"> <!-- Campo de texto para inserir o nome da universidade -->
+  <br><br><!-- Espaçamento-->
 
-     <li><label for="estado">Estados:</label></li>
-     <select id="estado" name="estado">
-        <option value="0">Selecione seu estado</option>
-        <option value="1">São Paulo</option>
-        <option value="2">Rio de Janeiro</option>
-        <option value="3">Minas Gerais</option>
-        <option value="4">Espirito Santo</option>
-        <option value="5">Distrito Federal </option>
-        <option value="6">Goiás</option>   
-        <option value="7">Mato Grosso</option> 
-        <option value="8">Mato Grosso do Sul</option>
-        <option value="9">Alagoas</option>  
-        <option value="10">Bahia </option>   
-        <option value="11">Ceará</option> 
-        <option value="12">Maranhão</option>  
-        <option value="13">Paraíba</option>
-        <option value="14">Pernambuco</option>  
-        <option value="15">Piauí</option> 
-        <option value="16">Rio Grande do Norte</option>  
-        <option value="17">Sergipe</option>
-        <option value="18">Acre</option>
-        <option value="19">Amapá</option> 
-        <option value="20">Amazonas</option> 
-        <option value="21">Pará</option> 
-        <option value="22">Rondônia </option>  
-        <option value="23">Roraima</option>  
-        <option value="24">Tocantis</option>
-     </select>
-     <br><br>
-<li><label>Nome Da Universidade:</label></li>
-     <input type="text" id="text" name="Ndu">
-     <br><br>
+  <input type="button" id="button" value="Enviar"> <!-- Botão para envio do formulário -->
+  <br><br><br> <!-- Espaçamento -->
 
-     <input type="button" id="button" value="Enviar">
-     <br><br>
+  <a href="Pagina Inicial.html">Voltar para a pagina Inicial</a> <!-- Link para voltar à página inicial -->
 
-     <li><a href="Pagina Inicial.html">Voltar para a pagina Inicial</a></li>
-    
-    
+</div> <!-- Fim da caixa -->
 </body>
 </html>

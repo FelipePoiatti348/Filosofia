@@ -1,15 +1,33 @@
-body{
-  background-color: rgb(184, 184, 184);
+body {
+  background-color: rgb(184, 184, 184);  /* Fundo cinza claro da página */
 }
-table{
-  width: 50%;
-  border-collapse: collapse;
+
+table {
+  width: 100%;                          /* Tabela ocupa toda a largura */
+  border-collapse: collapse;            /* Remove espaço entre as bordas das células */
 }
-th,td{
-  border: 1px solid black;
-  padding: 8px;
-  text-align: center;
+
+th, td {
+  border: 1px solid black;            /* Borda preta nas células */
+  padding: 8px;                         /* Espaçamento interno */
+  text-align: center;                   /* Texto centralizado */
 }
-th{
-  background-color: lightgrey;
+
+th {
+  background-color: lightgrey;        /* Fundo cinza claro nos cabeçalhos */
+}
+
+.borderbody {
+  background-color: white;            /* Fundo branco da caixa principal */
+  border: 3px solid black;            /* Borda preta de 3px */
+  border-radius: 10px;                  /* Cantos arredondados */
+  margin: 25px auto 300px;              /* Espaço em cima (25px), embaixo (300px), centralizado horizontalmente */
+  width: 1000px;                        /* Largura da caixa fixa */
+  padding: 20px;                        /* Espaço interno da caixa */
+}
+
+img {
+  float: right;                         /* Alinha imagem à direita */
+  height: 250px;                        /* Altura da imagem */
+  width: 400px;                         /* Largura da imagem */
 }
